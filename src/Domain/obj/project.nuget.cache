@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C25RV0tmkCCXl91B90klHDer45WWrNL+7euPZ4+UMzr9riuo6JVDd4ruQORc44qk49e9BQ6c3SZ/oUyPWFPgZg==",
+  "dgSpecHash": "l7QudxSEujravhHQDXfBZuZgfLrTbHTJ4cQ40PO4+cdcJ0bnCHEZr1ThRJHBu2J5iU5OSxZroNRgnAHbU2Oe6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\kevcb\\Seguridad\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

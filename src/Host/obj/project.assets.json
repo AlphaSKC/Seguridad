@@ -3405,11 +3405,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Host\\Host.csproj",
+      "projectUniqueName": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Host.csproj",
       "projectName": "Host",
-      "projectPath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Host\\Host.csproj",
+      "projectPath": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Host.csproj",
       "packagesPath": "C:\\Users\\kevcb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Host\\obj\\",
+      "outputPath": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevcb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3426,11 +3426,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\kevcb\\Seguridad\\src\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\kevcb\\Seguridad\\src\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Infraestructure\\Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Infraestructure\\Infraestructure.csproj"
+            "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\Infraestructure.csproj"
             }
           }
         }

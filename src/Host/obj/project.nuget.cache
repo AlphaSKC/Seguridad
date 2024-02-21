@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYfLrhyyoiASk9J4EF7prO3sNDA/ASYv9GWdLAbw3oJIKrCb7wXOUVA4lbI2qyK6AnADty3bfzhc9tLgilgNGw==",
+  "dgSpecHash": "ge43rqZ4laeeKMB+pR+/6okazRqidjqJjg0Df1rgU8E+VivucwaZPWgO9kuE6+cok+VUkQqQoQABm3Azn/aRAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevcb\\OneDrive\\Escritorio\\Universidad\\Seguridad\\src\\Host\\Host.csproj",
+  "projectFilePath": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Host.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevcb\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\kevcb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
