@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "Host.Controllers.DashboardController",
+    "Method": "Create",
+    "RelativePath": "api/dashboard/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ApplicationCore.Commands.Categoria.CreateCategoriaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApplicationCore.Wrappers.Response\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Host.Controllers.DashboardController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/dashboard/getdata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
