@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kevcb\\Seguridad\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|c:\\users\\kevcb\\seguridad\\src\\infraestructure\\persistence\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|solutionrelative:src\\infraestructure\\persistence\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26F5B71-5603-4F6B-91C6-72BC6027DE9F}|src\\Host\\Host.csproj|c:\\users\\kevcb\\seguridad\\src\\host\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26F5B71-5603-4F6B-91C6-72BC6027DE9F}|src\\Host\\Host.csproj|solutionrelative:src\\host\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\Persistence\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "src\\Infraestructure\\Persistence\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\Persistence\\DatabaseInitializer.cs",
+              "RelativeToolTip": "src\\Infraestructure\\Persistence\\DatabaseInitializer.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T07:31:51.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "src\\Host\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "src\\Host\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T07:30:11.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

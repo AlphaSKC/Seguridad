@@ -23,6 +23,11 @@ namespace Host.Controllers
         [Route("getData")]
         [HttpGet]
 
+        /// <summary>
+        /// Get de todas las categorias
+        /// </summary>
+        /// <returns></returns>
+
         public async Task<IActionResult> GetUsuarios()
         {
             var result = await _service.GetData();
