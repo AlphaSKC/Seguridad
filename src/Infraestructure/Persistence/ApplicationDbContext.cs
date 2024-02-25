@@ -14,6 +14,7 @@ namespace Infraestructure.Persistence
         }
 
         public DbSet<Categoria> categorias { get; set; }
+        public DbSet<Log> logs { get; set; }
 
         //public DbSet<BranchOffice> BranchOffice => Set<BranchOffice>();
 

@@ -6,6 +6,8 @@ using Dapper;
 using Infraestructure.Persistence;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
+using System.Net.Sockets;
 
 namespace Infraestructure.Services
 {
@@ -13,7 +15,7 @@ namespace Infraestructure.Services
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly ICurrentUserService _currentUserService;
-
+        
         public DashboardService(ApplicationDbContext dbContext, ICurrentUserService currentUserService)
         {
             _dbContext = dbContext;
@@ -25,6 +27,14 @@ namespace Infraestructure.Services
             object list = new object();
             list = await _dbContext.categorias.ToListAsync();
             return new Response<object>(list);
+        }
+
+        public async Task<Response<string>> GetIp()
+        {
+            IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+            IPAddress iPAddress = host.AddressList.FirstOrDefault(ip => ip.AddressFamily == AddressFamily.InterNetwork);
+            string ip = iPAddress?.ToString() ?? "No se pudó obtener la ip";
+            return new Response<string>(ip);
         }
 
 

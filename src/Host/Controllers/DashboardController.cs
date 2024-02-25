@@ -5,6 +5,7 @@ using ApplicationCore.Wrappers;
 using MediatR;
 using Microsoft.EntityFrameworkCore.Metadata;
 using ApplicationCore.Commands.Categoria;
+using ApplicationCore.Commands.Log;
 
 namespace Host.Controllers
 {
@@ -45,6 +46,31 @@ namespace Host.Controllers
             var result = await _mediator.Send(request);
             return Ok(result);
         }
+
+        /// <summary>
+        /// Get de la ip
+        /// </summary>
+        /// <returns></returns>
+
+        [HttpGet("GetIp")]
+        public async Task<IActionResult> GetIp()
+        {
+            var result = await _service.GetIp();
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// Create Log
+        /// </summary>
+        /// <returns></returns>
+
+        [HttpPost("CreateLog")]
+        public async Task<ActionResult<Response<int>>> CreateLog(CreateLogCommand request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+
 
         //public async Task<IActionResult> GastoPendienteArea()
         //{

@@ -10,5 +10,17 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Host.Controllers.DashboardController.GetIp">
+            <summary>
+            Get de la ip
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.CreateLog(ApplicationCore.Commands.Log.CreateLogCommand)">
+            <summary>
+            Create Log
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
