@@ -16,7 +16,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Host.Controllers.DashboardController.CreateLog(ApplicationCore.Commands.Log.CreateLogCommand)">
+        <member name="M:Host.Controllers.DashboardController.CreateLog(ApplicationCore.DTOs.Log.LogDto)">
             <summary>
             Create Log
             </summary>

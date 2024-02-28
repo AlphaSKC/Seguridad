@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ApplicationCore.Commands.Log.CreateLogCommand",
+        "Type": "ApplicationCore.DTOs.Log.LogDto",
         "IsRequired": true
       }
     ],

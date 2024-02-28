@@ -5,7 +5,7 @@ using ApplicationCore.Wrappers;
 using MediatR;
 using Microsoft.EntityFrameworkCore.Metadata;
 using ApplicationCore.Commands.Categoria;
-using ApplicationCore.Commands.Log;
+using ApplicationCore.DTOs.Log;
 
 namespace Host.Controllers
 {
@@ -65,9 +65,9 @@ namespace Host.Controllers
         /// <returns></returns>
 
         [HttpPost("CreateLog")]
-        public async Task<ActionResult<Response<int>>> CreateLog(CreateLogCommand request)
+        public async Task<ActionResult<Response<int>>> CreateLog([FromBody] LogDto request)
         {
-            var result = await _mediator.Send(request);
+            var result = await _service.CreateLog(request);
             return Ok(result);
         }
 
