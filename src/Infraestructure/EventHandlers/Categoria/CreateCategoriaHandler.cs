@@ -25,22 +25,40 @@ namespace Infraestructure.EnventHandlers.Categoria
 
         public async Task<Response<int>> Handle(CreateCategoriaCommand request, CancellationToken cancellationToken)
         {
-            var c = new CreateCategoriaCommand();
-            c.Nombre = request.Nombre;
-
-            var json = JsonSerializer.Serialize(c);
             var log = new LogDto();
-            log.datos =json;
+            log.datos = JsonSerializer.Serialize(request);
             log.fecha = DateTime.Now;
-            log.response = "200";
             log.nombreFuncion = "CreateCategoria()";
-            await _service.CreateLog(log);
 
-            var ca = _mapper.Map<Domain.Entities.Categoria>(c);
-            await _context.categorias.AddAsync(ca);
-            await _context.SaveChangesAsync();
-            return new Response<int>(ca.pkCategoria, "Registro Creado");
+            try
+            {
+                var c = new CreateCategoriaCommand();
+                c.Nombre = request.Nombre;
+                c.Costo = request.Costo;
 
+                if (request.Costo > 0)
+                {
+                    var ca = _mapper.Map<Domain.Entities.Categoria>(c);
+                    await _context.categorias.AddAsync(ca);
+                    await _context.SaveChangesAsync();
+
+                    log.response = "200";
+                    return new Response<int>(ca.pkCategoria, "Registro Creado");
+                }
+                else
+                {
+                    throw new ArgumentException("El costo debe ser mayor a 0");
+                }
+            }
+            catch (Exception ex)
+            {
+                log.response = "500";
+                throw;
+            }
+            finally
+            {
+                await _service.CreateLog(log);
+            }
         }
     }
 }

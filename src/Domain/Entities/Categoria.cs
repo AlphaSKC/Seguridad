@@ -14,5 +14,6 @@ namespace Domain.Entities
         [Key]
         public int pkCategoria { get; set; }
         public string Nombre { get; set; }
+        public int Costo { get; set; }
     }
 }

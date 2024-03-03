@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|c:\\users\\kevcb\\seguridad\\src\\infraestructure\\eventhandlers\\categoria\\createcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|solutionrelative:src\\infraestructure\\eventhandlers\\categoria\\createcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605BC5E9-381F-4C78-B39C-96BDDAF59D22}|src\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\kevcb\\seguridad\\src\\applicationcore\\dtos\\categoria\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605BC5E9-381F-4C78-B39C-96BDDAF59D22}|src\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\applicationcore\\dtos\\categoria\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B00C02-2F65-4C83-AC59-D6C3900E46FD}|src\\Domain\\Domain.csproj|c:\\users\\kevcb\\seguridad\\src\\domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B00C02-2F65-4C83-AC59-D6C3900E46FD}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\ApplicationCore\\DTOs\\Categoria\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "src\\ApplicationCore\\DTOs\\Categoria\\CategoriaDto.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\ApplicationCore\\DTOs\\Categoria\\CategoriaDto.cs",
+              "RelativeToolTip": "src\\ApplicationCore\\DTOs\\Categoria\\CategoriaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T04:02:12.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T04:01:54.68Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
               "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
               "RelativeToolTip": "src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA0wB8AAAAjAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvzYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T03:27:14.133Z",
               "EditorCaption": ""
