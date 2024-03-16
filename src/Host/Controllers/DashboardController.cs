@@ -78,6 +78,17 @@ namespace Host.Controllers
         //    return Ok("test");
         //}
 
+        /// <summary>
+        /// Update Categoria
+        /// </summary>
+        /// <returns></returns>
+
+        [HttpPut("update")]
+        public async Task<ActionResult<Response<int>>> UpdateCategoria(UpdateCategoriaCommand request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
 
     }
 }

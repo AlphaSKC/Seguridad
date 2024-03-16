@@ -22,5 +22,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Host.Controllers.DashboardController.UpdateCategoria(ApplicationCore.Commands.Categoria.UpdateCategoriaCommand)">
+            <summary>
+            Update Categoria
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
