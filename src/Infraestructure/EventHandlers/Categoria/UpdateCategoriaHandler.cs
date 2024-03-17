@@ -34,6 +34,7 @@ namespace Infraestructure.EventHandlers.Categoria
                 var c = await _context.categorias.FindAsync(request.Id);
                 c.Nombre = request.Nombre;
                 c.Costo = request.Costo;
+                c.Estatus = request.Estatus;
 
                 await _context.SaveChangesAsync();
 

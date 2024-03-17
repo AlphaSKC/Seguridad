@@ -10,5 +10,6 @@ namespace ApplicationCore.DTOs.Categoria
     {
         public string Nombre { get; set; }
         public int Costo { get; set; }
+        public bool Estatus {  get; set; }
     }
 }

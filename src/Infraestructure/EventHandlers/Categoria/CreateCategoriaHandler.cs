@@ -30,6 +30,7 @@ namespace Infraestructure.EnventHandlers.Categoria
                 var c = new CreateCategoriaCommand();
                 c.Nombre = request.Nombre;
                 c.Costo = request.Costo;
+                c.Estatus = request.Estatus;
                 var ca = _mapper.Map<Domain.Entities.Categoria>(c);
                 await _context.categorias.AddAsync(ca);
                 await _context.SaveChangesAsync();

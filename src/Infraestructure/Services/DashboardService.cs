@@ -28,7 +28,7 @@ namespace Infraestructure.Services
         public async Task<Response<object>> GetData()
         {
             object list = new object();
-            list = await _dbContext.categorias.ToListAsync();
+            list = await _dbContext.categorias.Where(c => c.Estatus==true).ToListAsync();
             return new Response<object>(list);
         }
 
