@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Commands.Categoria
 {
-    public class UpdateCategoriaCommand : IRequest<Response<int>>
+    public class DeleteCategoriaCommand : IRequest<Response<int>>
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
-        public int Costo { get; set; }
-        public bool Estatus {  get; set; }
     }
 }

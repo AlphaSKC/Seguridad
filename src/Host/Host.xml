@@ -28,5 +28,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Host.Controllers.DashboardController.DeleteCategoria(System.Int32)">
+            <summary>
+            Delete Categoria
+            </summary>
+            <returns></returns>
+            
+        </member>
     </members>
 </doc>

@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore.Metadata;
 using ApplicationCore.Commands.Categoria;
 using ApplicationCore.DTOs.Log;
+using Microsoft.EntityFrameworkCore;
 
 namespace Host.Controllers
 {
@@ -88,6 +89,21 @@ namespace Host.Controllers
         {
             var result = await _mediator.Send(request);
             return Ok(result);
+        }
+
+        /// <summary>
+        /// Delete Categoria
+        /// </summary>
+        /// <returns></returns>
+        /// 
+        
+        [HttpPut("delete/{id}")]
+        public async Task<ActionResult<Response<int>>> DeleteCategoria(int id)
+        {
+            var command = new DeleteCategoriaCommand{Id = id};
+            var result = await _mediator.Send(command);
+            return Ok(result);
+
         }
 
     }
