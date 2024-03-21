@@ -84,9 +84,10 @@ namespace Host.Controllers
         /// </summary>
         /// <returns></returns>
 
-        [HttpPut("update")]
-        public async Task<ActionResult<Response<int>>> UpdateCategoria(UpdateCategoriaCommand request)
+        [HttpPut("update/{id}")]
+        public async Task<ActionResult<Response<int>>> UpdateCategoria(UpdateCategoriaCommand request, int id)
         {
+            request.Id = id;
             var result = await _mediator.Send(request);
             return Ok(result);
         }

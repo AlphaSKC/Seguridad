@@ -100,7 +100,7 @@
   {
     "ContainingType": "Host.Controllers.DashboardController",
     "Method": "UpdateCategoria",
-    "RelativePath": "api/dashboard/update",
+    "RelativePath": "api/dashboard/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -108,6 +108,11 @@
       {
         "Name": "request",
         "Type": "ApplicationCore.Commands.Categoria.UpdateCategoriaCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

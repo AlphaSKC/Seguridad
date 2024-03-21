@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\kevcb\\Seguridad\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|c:\\users\\kevcb\\seguridad\\src\\infraestructure\\eventhandlers\\categoria\\updatecategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|solutionrelative:src\\infraestructure\\eventhandlers\\categoria\\updatecategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|c:\\users\\kevcb\\seguridad\\src\\infraestructure\\eventhandlers\\categoria\\createcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B78D581-67F1-4675-960E-59D4F302BF29}|src\\Infraestructure\\Infraestructure.csproj|solutionrelative:src\\infraestructure\\eventhandlers\\categoria\\createcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D26F5B71-5603-4F6B-91C6-72BC6027DE9F}|src\\Host\\Host.csproj|c:\\users\\kevcb\\seguridad\\src\\host\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D26F5B71-5603-4F6B-91C6-72BC6027DE9F}|src\\Host\\Host.csproj|solutionrelative:src\\host\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CreateCategoriaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
+              "RelativeDocumentMoniker": "src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
+              "RelativeToolTip": "src\\Infraestructure\\EventHandlers\\Categoria\\CreateCategoriaHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T06:24:53.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateCategoriaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\EventHandlers\\Categoria\\UpdateCategoriaHandler.cs",
+              "RelativeDocumentMoniker": "src\\Infraestructure\\EventHandlers\\Categoria\\UpdateCategoriaHandler.cs",
+              "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Infraestructure\\EventHandlers\\Categoria\\UpdateCategoriaHandler.cs",
+              "RelativeToolTip": "src\\Infraestructure\\EventHandlers\\Categoria\\UpdateCategoriaHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T06:25:50.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UpdateCategoriaCommand.cs",
               "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\ApplicationCore\\Commands\\Categoria\\UpdateCategoriaCommand.cs",
               "RelativeDocumentMoniker": "src\\ApplicationCore\\Commands\\Categoria\\UpdateCategoriaCommand.cs",
@@ -35,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "src\\Host\\Controllers\\DashboardController.cs",
               "ToolTip": "C:\\Users\\kevcb\\Seguridad\\src\\Host\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "src\\Host\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAcwFYAAAAYAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T05:58:16.504Z",
               "EditorCaption": ""
